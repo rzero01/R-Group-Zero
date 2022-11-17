@@ -10,7 +10,7 @@ const CollectionConfig: CollectionConfigInterface = {
   // yarn rename-contract NEW_CONTRACT_NAME
   // Please DO NOT change it manually!
   contractName: 'RGroup',
-  tokenName: 'G Club Card',
+  tokenName: 'R Club Card',
   tokenSymbol: 'GCC',
   hiddenMetadataUri: 'ipfs://QmWo4av3eVP69FSdDKXPiCqzcpwzp4oMw6QpJM1zSCbQdw/hidden.json',
   maxSupply: 500,
