@@ -10,23 +10,23 @@ const CollectionConfig: CollectionConfigInterface = {
   // yarn rename-contract NEW_CONTRACT_NAME
   // Please DO NOT change it manually!
   contractName: 'RGroup',
-  tokenName: 'R Club Card',
-  tokenSymbol: 'GCC',
-  hiddenMetadataUri: 'ipfs://QmWo4av3eVP69FSdDKXPiCqzcpwzp4oMw6QpJM1zSCbQdw/hidden.json',
+  tokenName: 'R Pass Card',
+  tokenSymbol: 'RPC',
+  hiddenMetadataUri: 'ipfs://Qmf2ic5DXpfnMNjpbF1QhY2aUt455SBBx6KbPB37Ln4dJx/0.json',
   maxSupply: 500,
   whitelistSale: {
-    price: 0.00001,
+    price: 0.001,
     maxMintAmountPerTx: 1,
   },
   preSale: {
-    price: 0.00002,
+    price: 0.002,
     maxMintAmountPerTx: 2,
   },
   publicSale: {
-    price: 0.00003,
+    price: 0.003,
     maxMintAmountPerTx: 1,
   },
-  contractAddress: "0x1b94061f02d2E1A9020e686Bc590E3287Bbe81c9",
+  contractAddress: '0x170522Fe984abB6112Fa65Bd5D1B89df43a7C07A',
   marketplaceIdentifier: 'my-nft-token',
   marketplaceConfig: Marketplaces.openSea,
   whitelistAddresses,
